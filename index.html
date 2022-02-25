@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="lib/codemirror.js"></script>
+    <script src="lib/mode/css/css.js"></script>
+    <link rel="stylesheet" href="lib/codemirror.css">
+    <link rel="stylesheet" href="lib/theme/dracula.css">
+    <title>Display Fox :)</title>
+</head>
+<body>
+    <div class="flex_editor">
+        <div class="question"></div>
+        <textarea id="editor"></textarea>
+        <div class="phases">
+            <div class="last_phase" onclick="game.last_phase();"><</div>
+            <div class="phase_status"><span class="current_phase"></span>/<span class="total_phases"></span></div>
+            <div class="next_phase" onclick="game.next_phase();">></div>
+        </div>
+    </div>
+    <div class="game_board">
+        <div class="flex_learn">
+
+        </div>
+    
+        <div class="flex_destination">
+
+        </div>
+    </div>
+    <script src="js/phases.js"></script>
+    <script src="js/editor.js"></script>
+    <script src="js/game.js"></script>
+</body>
+</html>
