@@ -9,14 +9,18 @@ const phases = [
             <div class="player" style="background-color: red;"></div>
         `,
 
+        result_configuration: `
+            .flex_learn {
+                
+            }
+        `,
+
         destination_elements: `
             <div class="destination" style="background-color: red;"></div>
         `,
 
         destination_configuration: `
             .flex_destination {
-                right: 10px;
-                top: 10px;
                 flex-direction: column;
                 align-items: flex-end;
             }
@@ -46,8 +50,6 @@ const phases = [
 
         destination_configuration: `
             .flex_destination {
-                right: 10px;
-                top: 10px;
                 flex-direction: column;
                 align-items: flex-end;
             }
@@ -76,9 +78,6 @@ const phases = [
 
         destination_configuration: `
             .flex_destination {
-                top: -10px;
-                left: 10px;
-                right: 10px;
                 flex-direction: row;
                 align-items: flex-end;
                 justify-content: space-between;

@@ -49,6 +49,10 @@ body {
     padding: 10px;
     position: relative;
     overflow: hidden;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .flex_destination {

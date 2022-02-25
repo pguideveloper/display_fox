@@ -41,7 +41,7 @@ class Game {
 
         let style_sheet = document.createElement("style");
         document.head.appendChild(style_sheet);
-        style_sheet.innerText = phase.destination_configuration;
+        style_sheet.innerText = `${phase.destination_configuration} ${phase.result_configuration}`
 
         const current_phase_div = document.querySelector(".current_phase");
         current_phase_div.innerHTML = this.current_phase_number + 1;
